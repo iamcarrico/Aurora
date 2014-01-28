@@ -25,11 +25,11 @@ Gem::Specification.new do |s|
 
   # Dependent Gems
 
-  s.add_dependency("compass",           [">= 0.12.2"])
-  s.add_dependency("toolkit",           [">= 0.3.0"])
-  s.add_dependency("breakpoint",        [">= 2.0.1"])
-  s.add_dependency("singularitygs",     [">= 1.1.2"])
-  s.add_dependency("sassy-buttons",     [">= 0.1.4"])
-  s.add_dependency("compass-normalize", [">= 1.4.3"])
+  s.add_dependency("sass",              ["~> 3.2.14"])
+  s.add_dependency("compass",           ["~> 0.12.2"])
+  s.add_dependency("toolkit",           ["~> 1.2.2"])
+  s.add_dependency("breakpoint",        ["~> 2.0.1"])
+  s.add_dependency("singularitygs",     ["~> 1.1.2"])
+  s.add_dependency("compass-normalize", ["~> 1.4.3"])
   s.add_dependency("bundler",           [">= 1.3.5"])
 end
