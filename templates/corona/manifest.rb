@@ -15,24 +15,21 @@ file 'maintenance.scss',  :like => :stylesheet, :media => 'screen, projection', 
 file 'print.scss',  :like => :stylesheet, :media => 'print', :to => 'print.scss'
 
 # Base partials: Settings and the like.
-file 'config.scss',  :like => :stylesheet, :to => 'config/_config.scss'
+file '_config.scss',  :like => :stylesheet, :to => 'config/_config.scss'
 file '_variables.scss', :like => :stylesheet, :to => 'config/_variables.scss'
 file '../shared/_functions.scss', :like => :stylesheet, :to => 'config/_functions.scss'
 file '../shared/_mixins.scss', :like => :stylesheet, :to => 'config/_mixins.scss'
 
 # Global partials: Form elements, typeface, etc.
-file '_normalize.scss',  :like => :stylesheet, :to => 'global/_normalize.scss'
+file '_normalize.scss',  :like => :stylesheet, :to => 'global/_normalize.css.scss'
 file '_forms.scss',  :like => :stylesheet, :to => 'global/_forms.scss'
 file '_type.scss',  :like => :stylesheet, :to => 'global/_type.scss'
 file '../shared/_extendables.scss', :like => :stylesheet, :to => 'global/_extendables.scss'
 
-# Design partial: Just a place for design elements to be put in.
-file '_design.scss', :like => :stylesheet, :to => 'partials/design/_design.scss'
-
 # Add in READMEs for n00bs.
 file '../shared/README-Sass.md',  :like => :stylesheet, :to => 'README.md'
-file '../shared/README-Partials.md',  :like => :stylesheet, :to => 'partials/README.md'
 file '../shared/README-templates.md', :to => "tpl/README.md", :erb => true
+file 'CORONA.md',  :like => :stylesheet, :to => 'CORONA.md'
 
 # Bower Awesomesauce
 file '../shared/bowerrc.txt', :to => '.bowerrc'

@@ -31,7 +31,7 @@ gem 'compass-normalize', '~>1.4.3'`
 
 These are the version numbers of these gems needed for Aurora 3.x. If you are using older versions of these gems, or require older versions of these gems, please change them to the versions you need. To see what versions of the gems you have installed, enter either `gem list` in the command line to see a list of all gems and their versions, or `gem list {name}` to see the list of versions for the named gem.
 
-Once you have your `Gemfile` written, you need to install the gems so you can use them. To do so, in the command line, type the following: 
+Once you have your `Gemfile` written, you need to install the gems so you can use them. To do so, in the command line, type the following:
 
 `bundle install`
 

@@ -18,7 +18,7 @@
 ////////////////////////
 // Import global elements
 ////////////////////////
-@import 'global/normalize';
+@import 'global/normalize.css';
 @import 'global/extendables';
 @import 'global/type';
 @import 'global/forms';
@@ -27,11 +27,10 @@
 // Import layouts
 ////////////////////////
 //@import 'layout/header';
-//@import 'layout/footer';
+//@import 'layout/panel-page-x';
 
 ////////////////////////
-// Import Design Stylings
+// Import compontents
 ////////////////////////
-//@import 'design/header';
-//@import 'design/footer';
-
+//@import 'components/tabs';
+//@import 'components/button';
